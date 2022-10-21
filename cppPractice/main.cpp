@@ -39,20 +39,31 @@ void heapInstantiatation() {
     point = nullptr;
 }
 
-int main() {
-    // stackInstantiation();
-    // heapInstantiatation();
+//int main() {
+//    // stackInstantiation();
+//    // heapInstantiatation();
+//
+//    // 实例化
+//    Line* line = new Line(1, 2, 3, 5);
+//    // Line* line = new Line(Point(1, 2), Point(3, 5));
+//
+//    cout << "sizeof (p) = " << sizeof(line) << endl;
+//    cout << "sizeof (Line) = " << sizeof(Line) << endl;
+//
+//    // 释放内存
+//    delete line;
+//    line = nullptr;
+//
+//    return 0;
+//}
 
-    // 实例化
-    Line* line = new Line(1, 2, 3, 5);
-    // Line* line = new Line(Point(1, 2), Point(3, 5));
-
-    cout << "sizeof (p) = " << sizeof(line) << endl;
-    cout << "sizeof (Line) = " << sizeof(Line) << endl;
-
-    // 释放内存
-    delete line;
-    line = nullptr;
-
-    return 0;
-}
+//int main() {
+//    const int a = 5;
+//    int b = 10;
+//    const int* p = &a;
+//    //*p = 7;
+//    p = &b;
+//    cout << "*p = " << *p << endl;
+//
+//    return 0;
+//}
